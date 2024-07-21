@@ -12,6 +12,8 @@
         "ecmel.vscode-html-css",
         "bradlc.vscode-tailwindcss",
         "macieklad.tailwind-sass-syntax",
-        "zarifprogrammer.tailwind-snippets"
+        "zarifprogrammer.tailwind-snippets",
+        "naumovs.color-highlight",
+        "gydunhn.html-essentials"
     ]
 }
