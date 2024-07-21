@@ -1,0 +1,17 @@
+{
+    "recommendations": [
+        "formulahendry.auto-close-tag",
+        "formulahendry.auto-complete-tag",
+        "formulahendry.auto-rename-tag",
+        "pranaygp.vscode-css-peek",
+        "joy-yu.css-snippets",
+        "dsznajder.es7-react-js-snippets",
+        "dbaeumer.vscode-eslint",
+        "vincaslt.highlight-matching-tag",
+        "htmlhint.vscode-htmlhint",
+        "ecmel.vscode-html-css",
+        "bradlc.vscode-tailwindcss",
+        "macieklad.tailwind-sass-syntax",
+        "zarifprogrammer.tailwind-snippets"
+    ]
+}
