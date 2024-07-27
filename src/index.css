@@ -7,3 +7,38 @@
 :root {
     font-family: "Inter", Helvetica, Arial, sans-serif;
 }
+
+.grad-bg {
+    background: linear-gradient(293deg, #031263, #09090b, #37033d);
+    background-size: 600% 600%;
+    min-height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+
+    -webkit-animation: grad-bg-fade 14s ease infinite;
+    -moz-animation: grad-bg-fade 14s ease infinite;
+    -o-animation: grad-bg-fade 14s ease infinite;
+    animation: grad-bg-fade 14s ease infinite;
+}
+
+@-webkit-keyframes grad-bg-fade {
+    0% { background-position: 13% 0%; }
+    50% { background-position: 88% 100%; }
+    100% { background-position: 13% 0%; }
+}
+@-moz-keyframes grad-bg-fade {
+    0% { background-position: 13% 0%; }
+    50% { background-position: 88% 100%; }
+    100% { background-position: 13% 0%; }
+}
+@-o-keyframes grad-bg-fade {
+    0% { background-position: 13% 0%; }
+    50% { background-position: 88% 100%; }
+    100% { background-position: 13% 0%; }
+}
+@keyframes grad-bg-fade {
+    0% { background-position: 13% 0%; }
+    50% { background-position: 88% 100%; }
+    100% { background-position: 13% 0%; }
+}

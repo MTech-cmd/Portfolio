@@ -1,7 +1,5 @@
-import logo from '../assets/favicon.png';
-import { FaLinkedin } from 'react-icons/fa';
-import { FaGithub } from 'react-icons/fa';
-import { FaInstagram } from 'react-icons/fa';
+import { logo } from '../data';
+import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
 import { FaXTwitter } from "react-icons/fa6";
 
 const Navbar = () => {
@@ -17,7 +15,7 @@ const Navbar = () => {
                 <FaXTwitter />
             </div>
         </nav>
-    );
-};
+    )
+}
 
 export default Navbar;
