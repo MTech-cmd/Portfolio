@@ -1,0 +1,40 @@
+.card {
+    background: rgba(60, 95, 93, 0.4); /* Frosted glass effect */
+    backdrop-filter: blur(12px); /* Frosted glass effect */
+    border: 3px solid rgba(255, 255, 255, 0.2); /* Light border */
+    border-radius: 12px; /* Rounded corners */
+    padding: 20px; /* Padding */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Depth */
+    position: relative; /* To allow absolute positioning of overlay */
+    overflow: hidden; /* Ensure the overlay doesn't overflow */
+    transition: background 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+}
+
+.card::before {
+    content: '';
+    position: absolute;
+    top: var(--mouse-y);
+    left: var(--mouse-x);
+    width: 180px; /* Adjusted size for subtle effect */
+    height: 180px; /* Adjusted size for subtle effect */
+    background: rgba(255, 255, 255, 0.15); /* Subtle white overlay */
+    border-radius: 50%; /* Circular overlay */
+    transform: translate(-50%, -50%); /* Center the overlay */
+    filter: blur(20px); /* Blurry effect for a soft glow */
+    transition: transform 0.2s ease, background 0.3s ease; /* Smooth transition */
+    pointer-events: none; /* Allow clicks to pass through */
+    mix-blend-mode: multiply; /* Blending mode for better effect */
+    z-index: 1; /* Ensure the overlay appears above the content */
+}
+
+.card:hover::before {
+    background: rgba(255, 255, 255, 0.2); /* Slightly brighter on hover */
+    filter: blur(25px); /* Increase blur on hover */
+    transform: translate(-50%, -50%) scale(1.1); /* Slightly enlarge on hover */
+}
+
+.card:hover {
+    background: rgba(60, 95, 93, 0.5); /* Darker background on hover */
+    border-color: rgba(255, 255, 255, 0.4); /* Brighter border on hover */
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3); /* Enhanced shadow on hover */
+}
