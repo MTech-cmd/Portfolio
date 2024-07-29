@@ -95,6 +95,7 @@ export const EXPERIENCES = [
     },
 ];
 
+// Projects
 export const PROJECTS = [
     {
         title: "SquishFactory",
@@ -136,6 +137,7 @@ export const PROJECTS = [
     },
 ]
 
+// Education
 export const EDUCATION = [
     {
         year: "2024 - 2026",
@@ -156,6 +158,7 @@ export const EDUCATION = [
     },
 ]
 
+// Certificates
 export const CERTIFICATES = [
     {
         title: "Full-stack Web Developer",
@@ -230,6 +233,16 @@ export const CERTIFICATES = [
         link: "https://www.hackerrank.com/certificates/82eea28e6256",
     },
 ]
+
+// Contact
+export const CONTACT = {
+    github: "MTech-cmd",
+    linkedin: "https://www.linkedin.com/in/mehdi-el-khallouki/",
+    phone: "+31 6 85280492",
+    email: "mehdiek@outlook.com",
+    instagram: "Na",
+    twitter: "Na",
+}
 
 export const LOGOS = {
     "Studentaanhuis": studentaanhuis,
