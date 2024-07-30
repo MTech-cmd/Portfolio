@@ -1,5 +1,6 @@
 import { HERO_TEXT } from '../data';
 import { motion } from 'framer-motion';
+import IconCloud  from '../../@/components/magicui/icon-cloud';
 
 const container = (delay, direction) => {
   let init;
@@ -20,6 +21,52 @@ const container = (delay, direction) => {
     }
   };
 };
+
+const slugs = [
+  'html5',
+  'css3',
+  'sass',
+  'bootstrap',
+  'tailwindcss',
+  'javascript',
+  'typescript',
+  'react',
+  'vuedotjs',
+  'nodedotjs',
+  'express',
+  'mongodb',
+  'git',
+  'github',
+  'gitlab',
+  'githubactions',
+  'docker',
+  'php',
+  'postcss',
+  'phpmyadmin',
+  'linux',
+  'archlinux',
+  'mariadb',
+  'mysql',
+  'laravel',
+  'composer',
+  'npm',
+  'python',
+  'pandas',
+  'sqlite',
+  'powerbi',
+  'figma',
+  'framer',
+  'githubpages',
+  'macos',
+  'unity',
+  'csharp',
+  'c',
+  'neovim',
+  'vim',
+  'vscode',
+  'jetbrains',
+  'android',
+];
 
 const Hero = () => {
   return (
@@ -51,8 +98,9 @@ const Hero = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 lg:p-8">
-          <div className="flex justify-center ">
-          </div>
+          <motion.div className="flex justify-center" variants={container(0.5, 'right')} initial="hidden" animate="visible">
+            <IconCloud iconSlugs={slugs}  />
+          </motion.div>
         </div>
       </div>
     </div>

@@ -7,14 +7,12 @@ import Projects from "./components/Projects"
 import Education from "./components/Education"
 import CertificatesSlider from "./components/Certificates"
 import Contact from "./components/Contact"
-import { IconCloudDemo } from "./components/test"
 
 const App = () => {
   return (
     <div className="grad-bg">
       <div className="overflow-x-hidden text-neutral-300 antialiased selection:bg-blue-800 selection:text-white">
         <div className="container mx-auto px-8">
-          <IconCloudDemo />
           <Navbar />
           <Hero />
           <About />
