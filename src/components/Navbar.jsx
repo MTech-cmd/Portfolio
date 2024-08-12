@@ -1,6 +1,6 @@
 import { LOGO, CONTACT } from '../data';
 import { FaLinkedin, FaGithub, FaInstagram } from 'react-icons/fa';
-import { FaXTwitter } from "react-icons/fa6";
+import { FaXTwitter, FaTiktok, FaThreads } from "react-icons/fa6";
 import './Navbar.css';
 
 const Navbar = () => {
@@ -14,6 +14,8 @@ const Navbar = () => {
                 <a href={`https://github.com/` + CONTACT.github}><FaGithub /></a>
                 <a href={`https://www.instagram.com/` + CONTACT.instagram}><FaInstagram /></a>
                 <a href={`https://x.com/` + CONTACT.twitter}><FaXTwitter /></a>
+                <a href={`https://www.tiktok.com/@` + CONTACT.tiktok}><FaTiktok /></a>
+                <a href={`https://www.threads.net/@` + CONTACT.threads}><FaThreads /></a>
             </div>
         </nav>
     )

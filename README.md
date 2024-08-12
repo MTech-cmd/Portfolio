@@ -1,21 +1,6 @@
 # Welcome to my portfolio
 
-<img src="public/favicon.png" class="spin">
-
-<style>
-    @keyframes spinner {
-        from {
-            transform: rotate(0deg);
-        }
-        to {
-            transform: rotate(359deg);
-        }
-    }
-
-    .spin {
-        animation: spinner 12s linear infinite;
-    }
-</style>
+<img src="public/favicon.png">
 
 # TOC
 - [License](#license)

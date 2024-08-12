@@ -240,8 +240,10 @@ export const CONTACT = {
     linkedin: "https://www.linkedin.com/in/mehdi-el-khallouki/",
     phone: "+31 6 85280492",
     email: "mehdiek@outlook.com",
-    instagram: "Na",
-    twitter: "Na",
+    instagram: "mtech270",
+    twitter: "mtech_cmd",
+    threads: "mtech270",
+    tiktok: "mtech_cmd",
 }
 
 export const LOGOS = {
