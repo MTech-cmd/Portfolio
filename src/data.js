@@ -82,10 +82,9 @@ export const ABOUT_TEXT = `Hi! I'm Mehdi El Khallouki, a Full-stack Developer at
                         If you have any questions or if you're interested in working together, feel free to reach out!`
 
 // Experience
-
 export const EXPERIENCES = [
     {
-        year: "2024 - Present",
+        year: "April 2024 - August 2024",
         role: "Computer Specialist",
         company: "Studentaanhuis",
         description: `Provided technical support and troubleshooting services to clients with a focus on software issues.
