@@ -89,6 +89,7 @@ export const EXPERIENCES = [
     {
         year: "August 2024 - Present",
         role: "Network Administrator",
+        employement: "Part-time",
         company: "Homij",
         description: `I provide technical support and troubleshooting services to employees with a focus on network issues.
                     Install and configure network equipment, software applications, and peripherals.
@@ -98,6 +99,7 @@ export const EXPERIENCES = [
     {
         year: "April 2024 - August 2024",
         role: "Computer Specialist",
+        employement: "Part-time",
         company: "Studentaanhuis",
         description: `I provided technical support and troubleshooting services to clients with a focus on software issues.
                     Installed and configured operating systems, software applications, and peripherals.

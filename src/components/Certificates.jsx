@@ -1,4 +1,3 @@
-import React from 'react';
 import Slider from 'react-slick';
 import { CERTIFICATES, LOGOS } from "../data";
 import Card from "./Card";

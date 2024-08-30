@@ -12,6 +12,7 @@ const Experience = () => {
               <div className="mb-8 flex flex-wrap lg:justify-center">
                 <div className="w-full lg:w-1/4">
                   <p className="mb-2 text-sm text-neutral-400">{experience.year}</p>
+                  <p className="mb-2 text-sm text-purple-200">{experience.employement}</p>
                   <img src={LOGOS[experience.company]} alt={experience.company} className="h-28 rounded-2xl" />
                 </div>
                 <div className="w-full max-w-xl lg:w-3/4">
