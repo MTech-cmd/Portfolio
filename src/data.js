@@ -1,6 +1,7 @@
 import logo from './assets/favicon.png';
 import pfp from './assets/mehdi.jpg';
 import studentaanhuis from './assets/studentaanhuis.jpg';
+import homij from './assets/homij.jpg';
 import squishfactory from './assets/squishfactory.png';
 import mymellow from './assets/mymellow.svg';
 import herodb from './assets/herodb.png';
@@ -22,6 +23,8 @@ import cert_python_basic from './assets/cert-python-basic.pdf';
 import windows11 from './assets/windows11.png';
 import macos from './assets/macos.png';
 import linux from './assets/linux.png';
+import android from './assets/android.png';
+import ios from './assets/ios.png';
 import unix from './assets/unix.png';
 import office from './assets/office.png';
 import apache from './assets/apache.png';
@@ -84,13 +87,22 @@ export const ABOUT_TEXT = `Hi! I'm Mehdi El Khallouki, a Full-stack Developer at
 // Experience
 export const EXPERIENCES = [
     {
+        year: "August 2024 - Present",
+        role: "Network Administrator",
+        company: "Homij",
+        description: `I provide technical support and troubleshooting services to employees with a focus on network issues.
+                    Install and configure network equipment, software applications, and peripherals.
+                    Educate employees on best practices for network security and privacy.`,
+        technologies: ["Windows", "Android", "iOS", "UNIX", "Microsoft Office"],
+    },
+    {
         year: "April 2024 - August 2024",
         role: "Computer Specialist",
         company: "Studentaanhuis",
-        description: `Provided technical support and troubleshooting services to clients with a focus on software issues.
+        description: `I provided technical support and troubleshooting services to clients with a focus on software issues.
                     Installed and configured operating systems, software applications, and peripherals.
-                    Educated clients on best practices for data security and privacy.`,
-        technologies: ["Windows", "MacOS", "Linux", "Microsoft Office", "UNIX"],
+                    Educated clients on how to navigate and utilise their devices effectively.`,
+        technologies: ["Windows", "MacOS", "Linux", "Android", "iOS", "UNIX", "Microsoft Office"],
     },
 ];
 
@@ -247,12 +259,15 @@ export const CONTACT = {
 
 export const LOGOS = {
     "Studentaanhuis": studentaanhuis,
+    "Homij": homij,
     "Bit Academy": bit_academy,
     "Horizon College": horizon_college,
     "HackerRank": hackerrank,
     "Windows": windows11,
     "MacOS": macos,
     "Linux": linux,
+    "Android": android,
+    "iOS": ios,
     "UNIX": unix,
     "Microsoft Office": office,
     "Apache": apache,
