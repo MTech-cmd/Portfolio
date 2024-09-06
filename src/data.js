@@ -1,5 +1,5 @@
 import logo from './assets/favicon.png';
-import pfp from './assets/mehdi.jpg';
+import pfp from './assets/mehdi.png';
 import studentaanhuis from './assets/studentaanhuis.jpg';
 import homij from './assets/homij.jpg';
 import squishfactory from './assets/squishfactory.png';
